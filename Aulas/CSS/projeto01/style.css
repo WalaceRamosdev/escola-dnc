@@ -1,0 +1,20 @@
+*{
+    background-color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#titulo-principal {
+    color: white;
+    background-color: blue;
+}
+
+#text-1 {
+    color: aqua;
+}
+
+p {
+    text-align: justify;
+    margin: 25px;
+    color: aliceblue;
+}
