@@ -11,10 +11,10 @@
 
 #titulo-cabecalho {
     color: white;
-    padding: 100px 25px;
+    padding: 100px;
 }
 
 #texto-cabecalho {
-    color: white;
-    padding-bottom: 100px;
+    color: yellow;
+    padding: -100px;
 }
