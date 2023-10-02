@@ -4,17 +4,15 @@
     font-family: Inter;
 }
 
-#cabecalho {
-    background-color: #303030;
-    height: 300px;
-}
 
 #titulo-cabecalho {
-    color: white;
-    padding: 100px;
+    margin-left: 20px;
+    margin-top: 70px;
+    color: black;
+    
 }
 
 #texto-cabecalho {
-    color: yellow;
-    padding: -100px;
+    margin-left: 50px;
 }
+
