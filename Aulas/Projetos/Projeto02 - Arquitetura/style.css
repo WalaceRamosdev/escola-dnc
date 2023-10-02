@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     font-family: Inter;
+    
 }
 
 
@@ -14,7 +17,7 @@
 
 #texto-cabecalho {
     padding-left: 25px;
-    padding-top: 1px;
+    padding-top: 20px;
     color: white;
 }
 
@@ -24,6 +27,7 @@
 }
 
 #informacoes {
+    background-color: #f9f9f9;
     display: grid;
     grid-auto-flow: column;
     columns: auto;
@@ -31,6 +35,19 @@
 
 }
 
-.texto-informativo {
-    display: flex;
+.texto-info {
+    font-weight: normal;
 }
+
+#sobre {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 35px;
+    align-items: center;
+}
+
+#sobre-texto {
+    margin-top: 35px;
+}
+
