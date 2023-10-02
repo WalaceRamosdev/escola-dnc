@@ -51,3 +51,28 @@
     margin-top: 35px;
 }
 
+#formulario {
+    background-color: #303030;
+    text-align: center;
+   
+}
+
+#titulo-formulario {
+    padding: 35px;
+    font-size: 14px;
+    color: white;
+    
+}   
+
+input {
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    margin: 13px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+
