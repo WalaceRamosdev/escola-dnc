@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conhecendo as DIVs</title>
     <style>
+
+        .alldivs {
+            border: 3px solid black;
+            border-radius: 50%;
+        }
+
         #div1 {
             background-color:#ad000e;
             width: 300px;
@@ -14,22 +20,24 @@
         #div2 {
             background-color: blue;
             width: 800px;
-            height: 40px;
+            height: 80px;
         }
 
         #div3 {
             width: 50%;
             height: 100px;
-            background-color: purple;
+            background-color: blueviolet;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: white;
         }
+
+        
     </style>
 </head>
 
 <body>
-    <div id="div1"><h1>DIV 1</h1></div>
-    <div id="div2"><h1>DIV 2</h1></div>
-    <div id="div3"><h1>DIV 3</h1></div>
+    <div class="alldivs" id="div1"><h1>DIV 1</h1></div>
+    <div class="alldivs" id="div2"><h1>DIV 2</h1></div>
+    <div class="alldivs" id="div3"><h1>DIV 3</h1></div>
 </body>
 </html>
