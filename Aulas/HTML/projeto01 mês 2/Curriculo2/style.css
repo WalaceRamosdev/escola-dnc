@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    background-color: rgba(3, 154, 255, 0.514);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Hubballi';
+    
+}
+
+#nameAndTitle {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+nameAndTitle h1, h1 {
+    margin: 0;
+}
