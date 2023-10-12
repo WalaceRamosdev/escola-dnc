@@ -31,3 +31,13 @@ nameAndTitle h1, h1 {
 #contact i {
     width: 30px;
 }
+
+#container {
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+}
