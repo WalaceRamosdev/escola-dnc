@@ -42,3 +42,7 @@ nameAndTitle h1, h1 {
     flex-direction: column;
     row-gap: 20px;
 }
+
+.card h3 {
+    font-family: 'Hubballi';
+}
