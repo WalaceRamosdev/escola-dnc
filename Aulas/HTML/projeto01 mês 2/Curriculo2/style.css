@@ -12,6 +12,10 @@
     
 }
 
+h1, h2, h3{
+    text-transform: uppercase;
+}
+
 #nameAndTitle {
     background-color: white;
     width: 500px;
@@ -45,4 +49,9 @@ nameAndTitle h1, h1 {
 
 .card h3 {
     font-family: 'Hubballi';
+}
+
+.card {
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
