@@ -201,3 +201,11 @@ h1.black {
 #portfolioTitle {
     margin-top: 70px;
 }
+
+.ptImg img {
+    width: 100%;
+}
+
+.ptImg {
+    padding: 30px;
+}
