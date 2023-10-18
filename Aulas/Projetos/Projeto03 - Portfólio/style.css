@@ -46,4 +46,42 @@ body {
 
 a {
     color: black;
+    text-decoration: none;
+}
+
+#buttonCta {
+    background-color: #1F7CFF;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 25px 10px 25px;
+    
+
+}
+
+#headerCta p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #575455;
+
+
+}
+
+#headerCta h1 {
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 83px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
