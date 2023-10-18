@@ -78,10 +78,18 @@ a {
 
 #headerCta h1 {
     font-family: Poppins;
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 700;
-    line-height: 83px;
     letter-spacing: 0em;
     text-align: left;
 
+}
+
+#headerImg {
+    margin-left: 42px;
+
+}
+
+#headerImg img {
+    width: 100%;
 }
