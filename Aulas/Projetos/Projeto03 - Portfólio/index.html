@@ -28,7 +28,7 @@
         <div id="headerCta">
             <h1>Olá, meu nome<br>
             é Maria</h1>
-            <p>Sou programadora e gostaria de apresentar meu<br>
+            <p class="gray">Sou programadora e gostaria de apresentar meu<br>
                 trabalho para você através deste portfólio.</p>
             <a id="buttonCta" href="">Meus Serviços</a>
         </div>
@@ -56,23 +56,36 @@
         <div class="textCenter">
             <img src="img/consultoria.svg" alt="consultoria">
             <h3>Consultoria</h3>
-            <p>Te ajudo a organizar sua empresa<br>e melhorar seus resultados.</p>
+            <p class="gray">Te ajudo a organizar sua empresa<br>e melhorar seus resultados.</p>
         </div>
         <div class="textCenter">
             <img src="img/marketing.svg" alt="emailmarketing">
             <h3>Email Marketing</h3>
-            <p>Gerenciar campanhas é difícil.<br>Conte comigo para te ajudar</p>
+            <p class="gray">Gerenciar campanhas é difícil.<br>Conte comigo para te ajudar</p>
         </div>
         <div  class="textCenter">
             <img src="img/criacao.svg" alt="criação de sites">
             <h3>Criação de Sites</h3>
-            <p>Desenvolvo seu site inteiro<br>do zero e te entrego prontinho</p>
+            <p class="gray">Desenvolvo seu site inteiro<br>do zero e te entrego prontinho</p>
         </div>
     </div>    
-     
-        
-    <div class="container">
-        <div class="form"><img src="img/001.svg" alt=""></div>
+       
+    <div class="container" id="contact">
+
+        <div id="contactImg" class="form"><img src="img/001.svg" alt=""></div>
+
+        <div id="contactForm">
+            <h2 class="red">Economize seu tempo</h2>
+            <h1 class="black">Ganhe mais dinheiro</h1>
+            <p class="gray">Digite aqui seu endereço de e-mail. Eu entrarei em<br>
+                contato para fornecer um diagnóstico gratuito.</p>
+            <form action="https://formspree.io/f/xaygagej" method="post">
+                <input placeholder="E-mail" type="text" required="required" id="emailInput" name="contactEmail">
+            </form>
+            <button type="submit">Enviar</button>
+            
+        </div>
+                
     </div>
 </body>
 </html>
