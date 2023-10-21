@@ -227,3 +227,28 @@ footer .endereco {
     color: white;
     width: 28%;
 }
+
+footer .linha2 {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+footer .linha2 a{
+    font-family: var(--fonte-padrao);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer .linha2 a:first-child {
+    border-right: 3px solid white;
+}
+
+footer .linha2 a:hover {
+    color: var(--cinza);
+}
