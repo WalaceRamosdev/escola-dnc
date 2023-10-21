@@ -252,3 +252,30 @@ footer .linha2 a:first-child {
 footer .linha2 a:hover {
     color: var(--cinza);
 }
+
+@media only screen and (max-width: 600px) {
+    
+    #principal {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #menu {
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+
+    #menu a {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        
+    }
+
+    #principal button {
+        width: 100%;
+        margin: 0px;
+    }
+}
