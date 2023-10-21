@@ -101,7 +101,35 @@ header .invert {
 /*formulario*/
 
 form {
-    
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-weight: 600px;
+    font-size: 30px;
 }
 
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form input {
+    border-radius: 10px;
+    border: 0px;
+    height: 30px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #FFFFFFE5;
+    
+
+}
+
+form label {
+    margin: 10px 0px 10px 0px;
+}
+
+form input::placeholder {
+    color: rgba(57, 57, 57, 0.5);
+}
 
