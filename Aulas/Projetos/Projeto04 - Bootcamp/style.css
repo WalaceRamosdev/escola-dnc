@@ -105,6 +105,7 @@ form {
     font-family: var(--fonte-padrao);
     font-weight: 600px;
     font-size: 30px;
+    width: 600px;
 }
 
 .formGroup {
@@ -131,5 +132,20 @@ form label {
 
 form input::placeholder {
     color: rgba(57, 57, 57, 0.5);
+}
+
+.checkBoxItens label {
+    font-size: 25px;
+
+}
+
+.checkBoxItens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.8);
 }
 
