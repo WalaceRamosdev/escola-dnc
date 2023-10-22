@@ -278,4 +278,28 @@ footer .linha2 a:hover {
         width: 100%;
         margin: 0px;
     }
+
+    /* section */
+
+    section h1 {
+        font-size: 38px;
+    }
+
+    section h2 {
+        font-size: 28px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    form {
+        width: 95%;
+        font-size: 20px;
+
+    }
+
+    .checkBoxItens label {
+        font-size: 17px;
+    }
+
+    
 }
