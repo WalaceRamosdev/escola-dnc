@@ -8,7 +8,6 @@ const bolsa = [
     'Mouse' 
 ]
 
-console.log(bolsa)
 
 for(let i = 0; i < bolsa.length; i++) {
     console.log(bolsa [i])
