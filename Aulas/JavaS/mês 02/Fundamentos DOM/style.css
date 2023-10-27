@@ -1,0 +1,14 @@
+* {
+    margin-left: 25px;
+    color: aliceblue;
+    background-color: #303030;
+}
+
+#div1 {
+    text-align: center;
+}
+
+#div1 p {
+    color: aqua;
+    background-color: black;
+}
