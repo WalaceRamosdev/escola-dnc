@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Manipulando DOM</h1>
-    <p>Estou aprendendo a manipular o DOM através do JS.</p>
+    <p id="teste" name="paragrafo">Estou aprendendo a manipular o DOM através do JS.</p>
 
     <div id="div1">
         <p>Java Script é incrível.</p>
@@ -18,6 +18,13 @@
 
         var x = window.document.getElementsByTagName('h1')[0]
         x.style.color = 'red'
+
+        var y = window.document.getElementsByName('paragrafo')[0]
+        y.style.backgroundColor = 'blue'
+        //window.alert(y.innerText)
+        var z = window.document.querySelector('div#div1')
+        z.style.textAlign = 'center'
+
     </script>
 
 </body>
