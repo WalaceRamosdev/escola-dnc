@@ -1,1 +1,5 @@
-var lam = window.document.getElementById('lampada')
+var lamp = window.document.getElementById('lampada')
+
+function Ligar(){
+    lamp.src = 'on.svg'
+}
