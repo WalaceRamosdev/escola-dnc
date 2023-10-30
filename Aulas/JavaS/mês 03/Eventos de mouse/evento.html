@@ -7,10 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="d1">
+    <div onmouseenter="PintarAqua()" id="d1">
         Conteúdo
     </div>
+    <button onclick="PintarVermelho()">Vermelho</button>
     <script>
+
+        var d1 = window.document.getElementById('d1')
+
+        d1.addEventListener('mouseout', PintarVermelho)
+        
+        function PintarVermelho(){
+            d1.style.backgroundColor = 'red'
+        }    
+        function PintarAqua(){
+            d1.style.backgroundColor = 'aqua'
+        }
         
     </script>
 </body>
