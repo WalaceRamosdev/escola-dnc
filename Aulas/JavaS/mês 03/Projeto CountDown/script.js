@@ -9,4 +9,9 @@ function countdown(){
     const dataLanc = new Date(lancamento)
     const hoje = new Date()
 
+    const segundosTotal = (dataLanc - hoje)/1000;
+
+    const finalDias = Math.floor (segTotal / 60 / 60 / 24); 
+    const finalHoras = Math.floor (segTotal /60 / 60) %24;
+
 }
