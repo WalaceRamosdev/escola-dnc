@@ -5,6 +5,17 @@
     padding: 0px;
 }
 
+header {
+    background-color: #E0D955;
+}
+
+nav {
+    background-color: #E34B69;
+}
+
+body {
+    background-color: #2FADE0;
+}
 
 #topo-page {
     text-align: center;
