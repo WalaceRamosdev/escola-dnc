@@ -6,12 +6,21 @@
 }
 
 header {
+    height: 250px;
     background-color: #E0D955;
 }
 
 nav {
+    height: 50px;
     background-color: #E34B69;
 }
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    
+} 
 
 body {
     background-color: #2FADE0;
