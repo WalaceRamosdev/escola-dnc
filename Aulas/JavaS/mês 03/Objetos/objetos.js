@@ -12,3 +12,6 @@ console.log(jogador.nome)
 console.log(jogador.numGol)
 jogador.Gol(5)
 console.log(jogador.numGol)
+
+jogador.posicao = 'Meio campo'
+console.log(jogador)
