@@ -16,7 +16,7 @@ function countDown(){
     const finalMinutos = Math.floor (segTotal / 60)%60;
     const finalSegundos = Math.floor (segTotal) %60;
 
-    dia.innerHTML = finalDias
+    dia.innerHTML = formatoTempo (finalDias)
     hora.innerHTML = formatoTempo (finalHoras)
     minuto.innerHTML = formatoTempo (finalMinutos)
     segundo.innerHTML = formatoTempo (finalSegundos)
