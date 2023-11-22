@@ -23,9 +23,15 @@
             <p>Você consegue sentir? É aquela sensação de finalmente poder falar em voz alta: "estamos em casa". Sim, em dezembro de 2022, teremos a volta da CCXP física. Mas não será qualquer CCXP, vai ser a maior de todos os tempos. Prepare-se para visitar seus universos favoritos, explorar o Artists' Valley, se emocionar nos auditórios e encontrar aventuras épicas a cada passo pelos nossos corredores.
             </p>
         </div>
-        <div>
-            
-            <video width="650px" autoplay loop>
+        <div id="timer">
+            <div class="contador">
+                <div id="dia"><h1>00D</h1></div>
+                <div id="hora"><h1>00H</h1></div>
+                <div id="minuto"><h1>00M</h1></div>
+                <div id="segundo"><h1>00S</h1></div>
+            </div>
+            <h3>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h3>
+            <video width="620px" autoplay loop>
                 <source src="img/video/ccxp.mp4">
             </video>
         </div>
@@ -35,16 +41,20 @@
 
     <footer>
 
-        
         <div class="cards">
-            <h4 id="tituloCard">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h4>
-            <img src="img/quinta-feira.svg" alt="">
-            <img src="img/sexta-feira.svg" alt="">
-            <img src="img/sabado.svg" alt="">
-            <img src="img/domingo.svg" alt="">
-            <button>GARANTA O SEU!</button>
+            <h3 id="tituloCard">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h3>
+            <div class="semana">
+                <img class="semana" src="img/quinta-feira.svg" alt="">
+                <img class="semana" src="img/sexta-feira.svg" alt="">
+                <img class="semana" src="img/sabado.svg" alt="">
+                <img class="semana" src="img/domingo.svg" alt="">
+            </div>
         </div>
-        
+
+        <div id="botao">
+            <button><h1>GARANTA O SEU!</h1></button>
+        </div>
+
     </footer>
 
     <script src="contador.js"></script>
