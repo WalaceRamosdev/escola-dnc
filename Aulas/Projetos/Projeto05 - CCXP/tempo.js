@@ -11,15 +11,15 @@ function countDown(){
 
     const segTotal = (dataLanc - hoje)/1000;
 
-    const finalDias = Math.floor (segTotal / 60 / 60 / 24);
-    const finalHoras = Math.floor (segTotal / 60/ 60)%24;
-    const finalMinutos = Math.floor (segTotal / 60)%60;
-    const finalSegundos = Math.floor (segTotal) %60;
+    const finalDia = Math.floor (segTotal / 60 / 60 / 24);
+    const finalHora = Math.floor (segTotal / 60/ 60)%24;
+    const finalMinuto = Math.floor (segTotal / 60)%60;
+    const finalSegundo = Math.floor (segTotal) %60;
 
-    dia.innerHTML = `${finalDias}D`
-    hora.innerHTML = formatoTempo (`${finalHoras}H`)
-    minuto.innerHTML = formatoTempo (`${finalMinutos}M`)
-    segundo.innerHTML = formatoTempo (`${finalSegundos}S`)
+    dia.innerHTML = `${finalDia}D`
+    hora.innerHTML = formatoTempo (`${finalHora}H`)
+    minuto.innerHTML = formatoTempo (`${finalMinuto}M`)
+    segundo.innerHTML = formatoTempo (`${finalSegundo}S`)
 }
 
 function formatoTempo(tempo){
