@@ -1,7 +1,7 @@
-const dia = window.document.getElementById('dia')
-const hora = window.document.getElementById('hora')
-const minuto = window.document.getElementById('minuto')
-const segundo = window.document.getElementById('segundo')
+const dia = document.getElementById('dia')
+const hora = document.getElementById('hora')
+const minuto = document.getElementById('minuto')
+const segundo = document.getElementById('segundo')
 
 const lancamento = "01 Jan 2024"
 
@@ -16,10 +16,10 @@ function countDown(){
     const finalMinutos = Math.floor (segTotal / 60)%60;
     const finalSegundos = Math.floor (segTotal) %60;
 
-    dia.innerHTML = formatoTempo (finalDias)
-    hora.innerHTML = formatoTempo (finalHoras)
-    minuto.innerHTML = formatoTempo (finalMinutos)
-    segundo.innerHTML = formatoTempo (finalSegundos)
+    dia.innerHTML = `${finalDias}D`
+    hora.innerHTML = formatoTempo (`${finalHoras}H`)
+    minuto.innerHTML = formatoTempo (`${finalMinutos}M`)
+    segundo.innerHTML = formatoTempo (`${finalSegundos}S`)
 }
 
 function formatoTempo(tempo){
