@@ -43,6 +43,13 @@ main {
     margin: 20px;
 }
 
+#texto-contador > h3 {
+    text-align: center;
+    color: rgba(243, 198, 31, 1);
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .contador {
     margin-top: 25px;
     text-align: center;
@@ -50,13 +57,6 @@ main {
     color: rgba(81, 73, 136, 1);
     display: grid;
     grid-auto-flow: column;
-}
-
-#timer > h3 {
-    text-align: center;
-    color: rgba(243, 198, 31, 1);
-    font-size: 22px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 video {
