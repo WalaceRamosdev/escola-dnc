@@ -22,7 +22,7 @@ function countDown(){
     segundo.innerHTML = formatoTempo (`${finalSegundo}S`)
 }
 
-function formatoTempo(tempo){
+//function formatoTempo(tempo){
     return tempo < 10? `0${tempo}` : tempo;
 }
 
