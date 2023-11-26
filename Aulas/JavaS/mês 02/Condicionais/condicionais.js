@@ -6,3 +6,6 @@ if (dinheiro > 50){
 } else {
     console.log('Dinheiro acabou carai D:')
 }
+
+
+//sábado de descanso
