@@ -83,7 +83,7 @@ footer{
     
 }
 
-.semana > img {
+#semana > img {
     width: 190px;
 }
 
@@ -104,4 +104,8 @@ button:hover {
 
 #botao > button:hover {
     color: rgba(243, 198, 31, 1);
+}
+
+.card-highlight {
+    box-shadow: 10px 10px grey;
 }
