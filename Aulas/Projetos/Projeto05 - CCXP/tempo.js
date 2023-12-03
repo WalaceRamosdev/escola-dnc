@@ -29,6 +29,8 @@ function formatoTempo(tempo){
 countDown();
 setInterval(countDown, 1000)
 
+//Modificação de cards apresentando uma borda cinza ao pássaro mouse
+
 function highlightCard(selector) {
     var element = document.querySelector(selector);
     element.classList.toggle("card-highlight");
