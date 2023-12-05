@@ -46,8 +46,8 @@ function checkKeyboardCode() {
 
         alert(`Key pressed ${name} \r\n Key code value: ${code}`);
 
-        alert(`Key pressed ${name} Key code value)
-    } )
+        alert(`Key pressed ${name} Key code value: ${code}`);
+    }, false);
 
 
 }
