@@ -33,3 +33,19 @@ function highlightCard(selector) {
     var element = document.querySelector(selector);
     element.classList.toggle("card-highlight");
 }
+
+//Adicionando eventos de teclado
+
+function checkKeyboardCode() {
+
+    document.addEventListener('keydown', (event) => {
+        var name = event.key;
+        var code = event.code;
+
+        alert(`Key pressed ${name} \r\n Key code value: ${code}`);
+
+        alert(`Key pressed ${name} Key code value)
+    } )
+
+
+}
