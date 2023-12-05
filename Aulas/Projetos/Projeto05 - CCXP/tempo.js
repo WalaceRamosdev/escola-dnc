@@ -44,10 +44,9 @@ function checkKeyboardCode() {
         var name = event.key;
         var code = event.code;
 
-        alert(`Key pressed ${name} \r\n Key code value: ${code}`);
-
-        alert(`Key pressed ${name} Key code value: ${code}`);
+        alert(`Tecla pressionada ${name} \r\n Key code value: ${code}`);
     }, false);
 
-
 }
+
+checkKeyboardCode();
