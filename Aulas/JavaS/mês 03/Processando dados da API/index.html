@@ -8,7 +8,15 @@
 
     <script>
         function getAddressByCep() {
-            console.log(document.getElementById('cep').value)
+            const cep = document.getElementById('cep').value;
+            fetch()
+            .then(response => {
+                return response.json();
+            }).then(response => {
+                console.log(response)
+            }).catch(error => {
+                console.log(error)
+            });
         }
     </script>
 
@@ -21,7 +29,7 @@
           <input type="text" class="form-control" id="cep" value="">
         </div>
         <div class="col-4 pl-2">
-            <button class="btn btn-primary" onclick="getAddressByCep()">Ok</button>
+            <button class="btn btn-primary" w-100 onclick="getAddressByCep()">Ok</button>
         </div>
       </div>
 
