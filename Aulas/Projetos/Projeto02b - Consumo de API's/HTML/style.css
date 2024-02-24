@@ -6,16 +6,11 @@
     
 }
 
-body {
-    background: #F2F2F2;
-
-}
-
-header {
+#navBar {
     background-color: #0C70F2;
     font-family: Inter;
     color: white;
-    width: 1100px;
+    width: 1349px;
     height: 103px;
     display: grid;
     grid-auto-flow: column;
@@ -24,14 +19,12 @@ header {
 
 #titlePage {
     margin: auto;
-    margin-left: 15px;
+    margin-left: 55px;
 }
 
 
-
-.title{
-    margin: auto;
-    font-size: 10;
+body {
+    background: #F2F2F2;
 }
 
 .tituloPrincipal {
@@ -41,9 +34,21 @@ header {
     grid-auto-flow: column;
     columns: auto;
     margin: auto;
+    
 }
 
-img {
-    width: 255px;
-    height: 197px;
+#title1 {
+    padding-top: 70px;
+    padding-left: 170px;
+}
+
+.imagem {
+    width: 200px;
+    height: 250px;
+}
+
+.container {
+    font-family: Inter;
+    background: #FFFFFF;
+    margin: auto;
 }
