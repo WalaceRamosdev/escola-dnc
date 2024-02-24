@@ -55,10 +55,3 @@ header {
 .conteudoPrincipal {
     background-color: #BABABA;
 }
-
-.container {
-    font-family: Inter;
-    background-color: #FFFFFF;
-    border-radius: 30px;
-    padding: 100px;
-}
