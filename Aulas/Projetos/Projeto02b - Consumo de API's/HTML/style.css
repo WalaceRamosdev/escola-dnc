@@ -134,3 +134,40 @@ input {
     grid-auto-flow: column;
     columns: auto;
 }
+
+.resultTime {
+    margin-top: 150px;
+    font-family: Inter;
+    text-align: center;
+}
+
+#titleTime {
+    border: solid 1px #0C70F2;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 30px;
+    width: 1001px;
+    height: 46px;
+    background-color: #FFFFFF;
+    margin-left: 203px;
+    margin-top: 30px;
+}
+
+.result {
+    text-align: center;
+    font-family: Inter;
+    font-size: larger;
+    
+}
+
+
+.end {
+    margin-top: 260px;
+    font-family: Inter;
+    color: white;
+    text-align: right;
+    height: 63px;
+    width: 1349px;
+    background-color: #0C70F2;
+    padding: 20px;
+}
