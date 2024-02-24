@@ -31,7 +31,59 @@
         </div>
         <!--Formulário para captura dos dados-->
         <main>
+            <form class="formulario" action="">
+
+                <div id="firstName">
+                    <p>Primeiro Nome:<br>
+                        <input type="text" placeholder="Insira seu primeiro nome:">
+                    </p>
+                    
+                </div>
+
+                <div id="email">
+                    <p>Primeiro E-mail:<br>
+                        <input type="email" placeholder="Insira seu e-mail">
+                    </p>
+                    
+                </div>
+
+                <div id="cep">
+                    <p>Digite o CEP:<br>
+                        <input type="text" placeholder="Insira o CEP">
+                    </p>
+                    
+                </div>
+
+                <div>
+                    <p>Digite a latitude e longitude para saber a previsão:<br>
+                        <input id="lat" class="latLong" type="text" placeholder="Latitude">
+                        <input id="long" class="latLong" type="text" placeholder="Longitude">
+                    </p>
+                    
+                </div>
+
+                <div>
+                    <button class="botao" type="submit">Acessar</button>
+                </div>
+            </form>
+
+            <div class="resultLoc">
+                <h1 id="tittleLoc">Resultado da busca por CEP:
+                    <img id="imgLoc" src="IMG/local.svg" alt="">
+                </h1>
+                
+            </div>
+            <div id="locA">
+                <p>Logradouro/nome</p>
+                <p>Bairro/Distrito</p>
+                <p>Localidade/UF</p>
+            </div>
             
+            <div id="resultCep">
+                <p>-</p>
+                <p>-</p>
+                <p>-</p>
+            </div>
         </main>
     </div>
 

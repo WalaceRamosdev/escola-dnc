@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 header {
@@ -48,10 +47,90 @@ header {
 }
 
 .imagem {
-    width: 200px;
-    height: 250px;
+    width: 250px;
+    height: 197px;
 }
 
 .conteudoPrincipal {
-    background-color: #BABABA;
+    background-color: rgba(242, 242, 242, 1);
+}
+
+main {
+    margin-top: 100px;
+}
+
+.formulario {
+    margin: auto;
+    background-color: #FFFFFF;
+    width: 650px;
+    border-radius: 30px;
+    padding: 90px;
+    font-family: Inter;
+    
+}
+
+.botao {
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-right: 100px;
+    width: 440px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    background: rgba(12, 112, 242, 0.9);
+    padding: 10px;
+    box-shadow: 0px 6px 4px 0px rgba(12, 112, 242, 0.25);
+}
+
+input {
+    border-radius: 10px;
+    background: #F2F2F2E5;
+    color: rgba(57, 57, 57, 0.5);
+    border-style: none;
+    width: 430px;
+    padding: 12px;
+}
+
+.latLong {
+    align-items: center;
+    width: 200px;
+    margin: auto;
+}
+
+#long {
+    margin-left: 30px;
+}
+
+.resultLoc {
+    margin-top: 150px;
+    text-align: center;
+    font-family: Inter;
+}
+
+#locA {
+    width: 1000px;
+    padding-top: 15px;
+    margin-left: 200px;
+    background-color: #0C70F2;
+    border-radius: 30px 30px 0px 0px;
+    color: white;
+    font-family: Inter;
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#resultCep {
+    width: 1000px;
+    padding-top: 15px;
+    margin-left: 200px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 30px 30px;
+    color: black;
+    font-family: Inter;
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
 }
