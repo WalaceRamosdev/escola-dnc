@@ -6,7 +6,7 @@
     
 }
 
-#navBar {
+header {
     background-color: #0C70F2;
     font-family: Inter;
     color: white;
@@ -17,14 +17,19 @@
     columns: auto;
 }
 
+.pNavBar {
+    font-family: Inter;
+    color: white;
+    margin: auto;
+}
+
+#navBarP {
+    padding-left: 600px;
+}
+
 #titlePage {
     margin: auto;
     margin-left: 55px;
-}
-
-
-body {
-    background: #F2F2F2;
 }
 
 .tituloPrincipal {
@@ -47,8 +52,13 @@ body {
     height: 250px;
 }
 
+.conteudoPrincipal {
+    background-color: #BABABA;
+}
+
 .container {
     font-family: Inter;
-    background: #FFFFFF;
-    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 100px;
 }
