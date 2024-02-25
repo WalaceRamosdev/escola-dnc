@@ -34,36 +34,32 @@
             <form class="formulario" action="">
 
                 <div id="firstName">
-                    <p>Primeiro Nome:<br>
-                        <input type="text" placeholder="Insira seu primeiro nome:">
-                    </p>
+                    <p class="pForm">Primeiro Nome:<br></p>
+                    <input type="text" value="" placeholder="Insira seu primeiro nome:">
                     
                 </div>
 
                 <div id="email">
-                    <p>Primeiro E-mail:<br>
-                        <input type="email" placeholder="Insira seu e-mail">
-                    </p>
+                    <p class="pForm">E-mail:<br></p>
+                    <input type="email" value="" placeholder="Insira seu e-mail">
                     
                 </div>
 
                 <div id="cep">
-                    <p>Digite o CEP:<br>
-                        <input type="text" placeholder="Insira o CEP">
-                    </p>
+                    <p class="pForm">Digite o CEP:<br></p>
+                    <input type="text" value="" placeholder="Insira o CEP">
                     
                 </div>
 
                 <div>
-                    <p>Digite a latitude e longitude para saber a previsão:<br>
-                        <input id="lat" class="latLong" type="text" placeholder="Latitude">
-                        <input id="long" class="latLong" type="text" placeholder="Longitude">
-                    </p>
+                    <p class="pForm">Digite a latitude e longitude para saber a previsão:<br></p>
+                    <input id="lat" class="latLong" type="text" readonly placeholder="Latitude">
+                        <input id="long" class="latLong" type="text" readonly placeholder="Longitude">
                     
                 </div>
 
                 <div>
-                    <button class="botao" type="submit">Acessar</button>
+                    <button class="botao" type="submit" onclick="getAddressByCep()">Acessar</button>
                 </div>
             </form>
 
@@ -74,7 +70,7 @@
                 
             </div>
             <div id="locA">
-                <p>Logradouro/nome</p>
+                <p >Logradouro/nome</p>
                 <p>Bairro/Distrito</p>
                 <p>Localidade/UF</p>
             </div>
@@ -102,7 +98,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    <script src="index.js"></script>
+    <script src="in ex.js"></script>
 
 </body>
 </html>
