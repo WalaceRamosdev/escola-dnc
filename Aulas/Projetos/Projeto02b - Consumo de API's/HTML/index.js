@@ -1,7 +1,7 @@
 async function getAddressByCep() {
     const cep = document.getElementById('cep').value;
     try {
-        const response = await fetch(`viacep.com.br/ws/${}/json/`)
+        const response = await fetch(`viacep.com.br/ws/${cep}/json/`)
         const data = await response.json()
         console.log(data);
         document.getElementById('rua').value = data.logradouro
