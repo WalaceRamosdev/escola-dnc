@@ -137,6 +137,16 @@ input {
     columns: auto;
 }
 
+#resultCep > input {
+    background-color: transparent;
+    width: 285px;
+    margin: auto;
+    margin-bottom: 15px;
+    height: 25px;
+    text-align: center;
+    color: black;
+}
+
 .resultTime {
     margin-top: 150px;
     font-family: Inter;
@@ -176,4 +186,16 @@ input {
 .pForm {
     margin-top: 20px;
     
+}
+
+#celsius > input {
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    
+}
+
+#celsiusRes {
+    font-size: 10px;
+    margin-top: 4px;
 }

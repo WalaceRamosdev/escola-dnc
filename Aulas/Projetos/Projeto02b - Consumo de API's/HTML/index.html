@@ -29,13 +29,15 @@
             <h1 id="title1">Descubra Mais com Precisão:<br>Previsões do Tempo e endereços<br>em tempo real.</h1>
             <img class="imagem" src="IMG/logo.svg" alt="">
         </div>
+
         <!--Formulário para captura dos dados-->
+
         <main>
-            <form class="formulario" action="https://api.sheetmonkey.io/form/jJ4MwesV3oVLqL4kFxBwsj" method="post">
+            <form class="formulario">
 
                 <div id="firstName">
                     <p class="pForm">Primeiro Nome:<br></p>
-                    <input type="text" value="" placeholder="Insira seu primeiro nome:">
+                    <input  type="text" value="" placeholder="Insira seu primeiro nome:">
                     
                 </div>
 
@@ -47,19 +49,22 @@
 
                 <div id="cep">
                     <p class="pForm">Digite o CEP:<br></p>
-                    <input type="text" value="" placeholder="Insira o CEP">
-                    
+                    <input id="cepi" type="text" value="" placeholder="Insira o CEP">
                 </div>
 
                 <div>
-                    <p class="pForm">Digite a latitude e longitude para saber a previsão:<br></p>
-                    <input id="lat" class="latLong" type="text"  placeholder="Latitude">
+                    <p class="pForm">Digite a latitude e longitude para saber a previsão:
+                        <br>
+                    </p>
+                        <input id="lat" class="latLong" type="text"  placeholder="Latitude">
                         <input id="long" class="latLong" type="text"  placeholder="Longitude">
                     
                 </div>
 
                 <div>
-                    <button class="botao" type="submit" onclick="getAddressByCep()">Acessar</button>
+                    <button class="botao" type="button" onclick="getAddressByCep(), getPrevisao()">
+                        Acessar
+                    </button>
                 </div>
             </form>
 
@@ -76,17 +81,26 @@
             </div>
             
             <div id="resultCep">
-                <p id="rua">-</p>
-                <p id="bairro">-</p>
-                <p id="cidade">-</p>
+
+                <input type="text" id="rua" readonly>
+                <input type="text" id="bairro" readonly>
+                <input type="text" id="cidade" readonly>
+                
             </div>
 
             <div class="resultTime">
-                <h1>Previsão do tempo na região: <img src="IMG/cloud.svg" alt=""></h1>
+                <h1>
+                    Previsão do tempo na região: <img src="IMG/cloud.svg" alt="">
+                </h1>
             </div>
             <div class="result">
-                <p id="titleTime">Previsão de tempo de acordo com a região: <span id="celsius">-</span>° C</p>
+                <p id="titleTime">Previsão de tempo de acordo com a região: 
+                    <span id="celsius">
+                        <input id="celsiusRes" type="number" value="" readonly>
+                    </span>
+                </p>
             </div>
+            
         </main>
 
         <footer>
@@ -98,7 +112,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    <script src="in ex.js"></script>
+    <script src="index.js"></script>
 
 </body>
 </html>
