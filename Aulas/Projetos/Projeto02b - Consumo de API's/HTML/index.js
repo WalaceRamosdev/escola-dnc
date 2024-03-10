@@ -42,6 +42,7 @@ async function getPrevisao() {
         const data = await response.json()
         console.log(data);
 
+        
 
         if (data.hourly && Array.isArray(data.hourly.temperature_2m)) {
             const ultimaTemperatura = data.hourly.temperature_2m[data.hourly.temperature_2m.length - 1];
@@ -55,5 +56,3 @@ async function getPrevisao() {
 
 
 
-// -22.7134382 lat
-// -43.5616878 long
