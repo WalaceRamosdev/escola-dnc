@@ -1,9 +1,18 @@
+import styles from './Navbar.module.css'
+
 function Navbar() {
     return(
-        <div>
-            <h1>
-                Aqui ficará o navbar
-            </h1>
+        <div clasName={styles.navbar}>
+            <ul>
+                <li>Apresentação</li>
+                <li>Habilidades</li>
+                <li>Projetos</li>
+            </ul>
+            <ul>
+                <li>Instagram</li>
+                <li>GitHub</li>
+                <li>LinkdIn</li>
+            </ul>
         </div>
     )
 }
