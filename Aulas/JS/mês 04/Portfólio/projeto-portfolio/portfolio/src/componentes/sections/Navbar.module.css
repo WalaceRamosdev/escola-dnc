@@ -1,10 +1,15 @@
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     padding: 1em;
 }
 
-.navbar ul{
+.navbar ul {
     display: flex;
-    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    margin: 10px;
 }
