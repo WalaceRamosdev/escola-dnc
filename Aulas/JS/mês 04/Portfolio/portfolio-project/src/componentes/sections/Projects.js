@@ -10,8 +10,6 @@ function Projects(){
             </h1>
             
             <Card/>
-            <Card/>
-            <Card/>
 
             <ButtonB text='Ver repositório completo' link='https://github.com/WalaceRamosdev?tab=repositories'/>
         </div>
