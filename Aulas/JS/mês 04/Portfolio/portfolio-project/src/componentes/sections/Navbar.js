@@ -1,4 +1,5 @@
 import styles from './Navbar.module.css'
+import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Navbar(){
     return(
@@ -9,9 +10,9 @@ function Navbar(){
                 <li>Porjetos</li>
             </ul>
             <ul>
-                <li>Instagram</li>
-                <li>GitHub</li>
-                <li>LinkedIn</li>
+                <li><FaInstagram size={30}/></li>
+                <li><FaGithub size={30}/></li>
+                <li><FaLinkedin size={30}/></li>
             </ul>
         </div>
     )
