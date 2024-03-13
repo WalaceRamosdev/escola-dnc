@@ -1,18 +1,40 @@
 import styles from './Navbar.module.css'
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import Nav from 'react-bootstrap/Nav'
 
 function Navbar(){
     return(
         <div className={styles.navbar}>
+            
             <ul>
-                <li>Apresentação</li>
-                <li>Habilidades</li>
-                <li>Porjetos</li>
+                <li>
+                    <Nav.Link href='#Presentation' >Apresentação</Nav.Link>
+                </li>
+
+                <li>
+                    <Nav.Link href='#Skills' >Habilidades</Nav.Link>
+                </li>
+
+                <li>
+                    <Nav.Link href='#Projects' >Projetos</Nav.Link>
+                </li>
             </ul>
+
             <ul>
-                <li><FaInstagram size={30}/></li>
-                <li><FaGithub size={30}/></li>
-                <li><FaLinkedin size={30}/></li>
+                <li>
+                    <a href='https://www.instagram.com/walacedev.contato/' target='blank_'><FaInstagram size={30}/>
+                    </a>
+                </li>
+
+                <li>
+                    <a href='https://github.com/WalaceRamosdev' target='blank_'><FaGithub size={30}/>
+                    </a>
+                </li>
+
+                <li>
+                    <a href='https://www.linkedin.com/in/walace-ramos-dev/' target='blank_'><FaLinkedin size={30}/>
+                    </a>
+                </li>
             </ul>
         </div>
     )
