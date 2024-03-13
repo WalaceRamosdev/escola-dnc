@@ -1,9 +1,19 @@
+import styles from './Projects.module.css'
+import ButtonB from '../elementos/ButtonB'
+import Card from '../elementos/Card'
+
 function Projects(){
     return(
-        <div id='Projects'>
+        <div className={styles.projects} id='Projects'>
             <h1>
-                Aqui ficaram os projetos
+                Projetos
             </h1>
+            
+            <Card/>
+            <Card/>
+            <Card/>
+
+            <ButtonB text='Ver repositório completo' link='https://github.com/WalaceRamosdev?tab=repositories'/>
         </div>
     )
 }
