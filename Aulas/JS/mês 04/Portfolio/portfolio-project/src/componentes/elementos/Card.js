@@ -1,22 +1,25 @@
 import styles from './Card.module.css'
-import lpdnc from '../../image/projects/lpdnc.svg'
 import ButtonB from './ButtonB'
 
-function Card() {
+function Card({img, title, tech, description, repo, site}) {
     return (
         <div className={styles.card}>
-            <img src={lpdnc}/>
+                <a href={site} target="blank_">
+                    <img src={img}/>
+                </a>
+                
                 <section>
                     <h3>
-                        LP-DNC
+                        {title}
                     </h3>
                     <p>
-                        Tecnologia
+                        <strong>Tecnologia: </strong> {tech}
                     </p>
                     <p>
-                        Descrição
+                        {description}
                     </p>
-                    <ButtonB text='Ver respositório'/>
+
+                    <ButtonB text='Ver respositório' link={repo}/>
                 </section>
         </div>
     )
