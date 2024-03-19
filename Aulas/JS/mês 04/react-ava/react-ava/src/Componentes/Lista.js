@@ -13,9 +13,10 @@ function Lista(){
                 Renderização de Listas
             </h1>
             {Mercado.map((Mercado) => (
-                <p key={Mercado.id} >{Mercado.name}</p>
-            )
-            )}
+                <p key={Mercado.id} >
+                    {Mercado.name}
+                </p>
+            ))}
         </div>
     )
 }
