@@ -16,18 +16,6 @@ function Condicionais() {
                 <p>Você não tem itens na sua lista</p>
             )
             }
-
-            {Mercado.length >= 1 &&
-            (
-                <div>
-                    {Mercado.map((Mercado) => (
-                        <p key={Mercado.id} > {Mercado.name} possui o preço: R${Mercado}</p>
-                    )
-                    )}
-                </div>
-            )
-
-            }
         </div>
     )
 }

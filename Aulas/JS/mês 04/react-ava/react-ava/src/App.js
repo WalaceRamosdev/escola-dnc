@@ -1,11 +1,12 @@
 
 import './App.css';
 //import Lista from './Componentes/Lista';
-import Condicionais from './Componentes/Condicionais';
+//import Condicionais from './Componentes/Condicionais';
+import Clique from './Componentes/Clique';
 function App() {
   return (
     <div className="App">
-      <Condicionais></Condicionais>
+      <Clique></Clique>
     </div>
   );
 }
