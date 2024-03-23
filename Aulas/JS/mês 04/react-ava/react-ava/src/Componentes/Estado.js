@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 
 function Estado(){
 
@@ -7,6 +7,10 @@ function Estado(){
     function Aniversario(){
         setIdade(idade+1)
     }
+
+    useEffect(() => {
+        window.alert('Parabéns !!!')
+    }, [idade])
 
     return(
         <>

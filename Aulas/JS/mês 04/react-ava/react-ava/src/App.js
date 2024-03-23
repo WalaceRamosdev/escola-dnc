@@ -1,11 +1,11 @@
 
 import './App.css';
-//import Estado from './Componentes/Estado';
-import EstadoCond from './Componentes/EstadoCond'
+import Estado from './Componentes/Estado';
+//import EstadoCond from './Componentes/EstadoCond'
 function App() {
   return (
     <div className="App">
-      <EstadoCond></EstadoCond>
+      <Estado></Estado>
     </div>
   );
 }

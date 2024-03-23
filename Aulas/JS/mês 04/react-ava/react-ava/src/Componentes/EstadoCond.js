@@ -10,8 +10,10 @@ function EstadoCond(){
         <button onClick={Validacao}>
             Validar
         </button>
-        {requisito === true &&}
-        <p>Você está validado</p>
+        {requisito === true && (
+            <p>Você está validado !</p>
+        )}
+        
         </>
     )
 }
