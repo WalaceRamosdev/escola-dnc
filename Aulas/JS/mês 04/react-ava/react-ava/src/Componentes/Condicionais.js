@@ -20,4 +20,6 @@ function Condicionais() {
     )
 }
 
+/* existe também a possibilidade de não haver resposta caso a lista não tenha os requisitos pedidos, e se chama "And Expression" &&  */
+
 export default Condicionais
