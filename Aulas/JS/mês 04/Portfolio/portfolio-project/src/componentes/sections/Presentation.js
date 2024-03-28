@@ -1,8 +1,16 @@
 import styles from './Presentation.module.css'
 import ButtonA from '../elementos/ButtonA'
 import ButtonB from '../elementos/ButtonB'
+import {useEffect, useState} from 'react'
 
 function Presentation(){
+
+    useEffect(()=>{
+        let ticker = setInterval(2000)
+        return()=>{clearInterval()}
+
+    }, [text])
+
     return(
         <div className={styles.presentation} id="Presentation">
 
