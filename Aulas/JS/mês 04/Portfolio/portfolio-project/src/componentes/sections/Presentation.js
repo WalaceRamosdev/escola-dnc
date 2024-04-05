@@ -5,6 +5,10 @@ import {useEffect, useState} from 'react'
 
 function Presentation(){
 
+    const [text, setText] = useState('')
+    const toRotate = ['Walace Ramos', 'Desenvolvedor full Cycle', 'ReactJS', 'TypeScript', 'React Native']
+    const [loop, setLoop] = useState(0)
+
     useEffect(()=>{
         let ticker = setInterval(2000)
         return()=>{clearInterval()}
