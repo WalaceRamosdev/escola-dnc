@@ -5,15 +5,39 @@ import {useEffect, useState} from 'react'
 
 function Presentation(){
 
-    const [text, setText] = useState('')
-    const toRotate = ['Walace Ramos', 'Desenvolvedor full Cycle', 'ReactJS', 'TypeScript', 'React Native']
-    const [loop, setLoop] = useState(0)
+    const [text, setText] = useState('');
+    const toRotate = ['Walace Ramos', 'Desenvolvedor full Cycle', 'ReactJS', 'TypeScript', 'React Native'];
+    const [loop, setLoop] = useState(0);
+    const [isDeleting, setIsDeleting] = useState(false);
+    const period = 1000;
+    const [delta, setDelta] = useState(100);
+
+    /* Aqui abaixo está o timer ou relógio para a digitação do texto de apresentação*/
 
     useEffect(()=>{
-        let ticker = setInterval(2000)
-        return()=>{clearInterval()}
+        let ticker = setInterval(()=>{
+            toType()
+        }, delta)
+        return()=> {clearInterval(ticker)}
 
     }, [text])
+
+    const toType = () =>{
+        let i = loop % toRotate.length;
+        let fullText = toRotate[i]
+        let updatedText = isDeleting ? fullText.substring(0,text.length-1) : fullText.substring(0,text.length+1)
+        
+        setText(updatedText);
+
+        if (!isDeleting && updatedText === fullText) {
+            setIsDeleting(true);
+            setDelta(period);
+        } else if (isDeleting && updatedText === '') {
+            setIsDeleting(false);
+            setDelta(period);
+            setLoop(loop+1)
+        }
+    }
 
     return(
         <div className={styles.presentation} id="Presentation">
@@ -25,7 +49,7 @@ function Presentation(){
             </h4>
 
             <h1>
-                Olá, sou Walace Ramos!
+                Olá, sou {text}
             </h1>
 
             <p>
