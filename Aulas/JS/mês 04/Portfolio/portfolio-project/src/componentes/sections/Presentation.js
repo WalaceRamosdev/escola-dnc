@@ -5,11 +5,13 @@ import {useEffect, useState} from 'react'
 
 function Presentation(){
 
+    /* Aqui está todo o texto de apresentação em loops para ser exibido na tela inicial do portfolio, também temos as configurações de digitação e exclusão do texto*/
+
     const [text, setText] = useState('');
     const toRotate = ['Walace Ramos', 'Desenvolvedor full Cycle', 'Desenvolvedor ReactJS', 'Desenvolvedor TypeScript', 'Desenvolvedor React Native'];
     const [loop, setLoop] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const period = 100;
+    const period = 200;
     const [delta, setDelta] = useState(100);
 
     /* Aqui abaixo está o timer ou relógio para a digitação do texto de apresentação*/
