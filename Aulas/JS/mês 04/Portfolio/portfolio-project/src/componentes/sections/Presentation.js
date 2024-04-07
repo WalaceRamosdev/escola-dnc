@@ -6,10 +6,10 @@ import {useEffect, useState} from 'react'
 function Presentation(){
 
     const [text, setText] = useState('');
-    const toRotate = ['sou Walace Ramos', 'Desenvolvedor full Cycle', 'Desenvolvedor ReactJS', 'Desenvolvedor TypeScript', 'Desenvolvedor React Native'];
+    const toRotate = ['Walace Ramos', 'Desenvolvedor full Cycle', 'Desenvolvedor ReactJS', 'Desenvolvedor TypeScript', 'Desenvolvedor React Native'];
     const [loop, setLoop] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const period = 1000;
+    const period = 100;
     const [delta, setDelta] = useState(100);
 
     /* Aqui abaixo está o timer ou relógio para a digitação do texto de apresentação*/
@@ -49,7 +49,7 @@ function Presentation(){
             </h4>
 
             <h1>
-                Olá, {text}
+                Olá, eu sou {text}
             </h1>
 
             <p>
