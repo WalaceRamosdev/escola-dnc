@@ -2,7 +2,7 @@ import styles from './Projects.module.css'
 import ButtonB from '../elementos/ButtonB'
 import Card from '../elementos/Card'
 import lpdnc from '../../image/projects/lpdnc.svg'
-import portfolio from '../../image/projects/portfolio.svg'
+import minhaapi from '../../image/projects/minhaapi.svg'
 
 function Projects(){
     return(
@@ -25,17 +25,17 @@ function Projects(){
             />
             
             <Card
-                img={portfolio}
+                img={minhaapi}
 
-                title=" Portfólio"
+                title=" API Busca de Endereços e Previsão do Tempo"
 
-                tech="JavaScript, React Icons, React-Bootstrap, React JS"
+                tech="JavaScript, HTML, CSS, Bootstrap"
 
-                description="Criação de um portfólio para apresentação de projetos pessoais e conhecimentos em linguagens de programação." 
+                description="Criação de uma página com requisição de API para busca de CEP e de previsão do tempo mediante a solicitação de latitude e longitude" 
 
-                repo="https://github.com/WalaceRamosdev"
+                repo="https://github.com/WalaceRamosdev/consumo-api"
 
-                site="https://github.com/WalaceRamosdev"
+                site="https://consumo-api-two.vercel.app/"
             />
             
 

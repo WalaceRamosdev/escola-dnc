@@ -61,7 +61,7 @@ function Presentation(){
                 e meus mais recentes projetos<br/>
                 pessoais em programação.<br/>
             </p>
-            <ButtonA link='https://www.instagram.com/walacedev.contato/' text='Conecte-se comigo!!!'/>
+            <ButtonA link='https://api.whatsapp.com/send?phone=+5521999064502&text=Ol%C3%A1%2C+Walace%21%0AGostaria+de+saber+mais+sobre+a+cria%C3%A7%C3%A3o+de+p%C3%A1ginas+web' text='Conecte-se comigo!!!'/>
         </div>
     )
 }
