@@ -12,20 +12,18 @@ function App() {
 
   return (
     <>
-      <div className='card'>
+      <div className="card">
         <p>
           Insira seu nome:
         </p>
 
-        <input value={name} onChange={e => setName(e.target.value)}>
-        </input>
+        <input value={name} onChange={e => setName(e.target.value)}/>
 
         <p>
           Insira o texto:
         </p>  
 
-        <input value={text} onChange={e => setText(e.target.value)}>
-        </input>
+        <input value={text} onChange={e => setText(e.target.value)}/>
 
         <div>
           <p>Nome: {name}</p>
