@@ -1,33 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useMemo, useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [name, setName] = useState('');
+  const [text, setText] = useState('');
+
+  const carac = useMemo(()=>{
+    console.log('Exec')
+    return text.length
+  },[text.length])
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+      <div className='card'>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Insira seu nome:
         </p>
+
+        <input value={name} onChange={e => setName(e.target.value)}>
+        </input>
+
+        <p>
+          Insira o texto:
+        </p>  
+
+        <input value={text} onChange={e => setText(e.target.value)}>
+        </input>
+
+        <div>
+          <p>Nome: {name}</p>
+          <p>Texto: {text}</p>
+          <p>Número de Caracteres: {carac}</p>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      
     </>
   )
 }
