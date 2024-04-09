@@ -6,7 +6,7 @@ import {useEffect, useState} from 'react'
 function Presentation(){
 
     const [text, setText] = useState('');
-    const toRotate = ['Walace Ramos', 'Desenvolvedor full Cycle', 'Desenvolvedor ReactJS', 'Desenvolvedor TypeScript', 'Desenvolvedor React Native'];
+    const toRotate = ['sou Walace Ramos', 'Desenvolvedor full Cycle', 'Desenvolvedor ReactJS', 'Desenvolvedor TypeScript', 'Desenvolvedor React Native'];
     const [loop, setLoop] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const period = 100;
@@ -49,7 +49,7 @@ function Presentation(){
             </h4>
 
             <h1>
-                Olá, eu sou {text}
+                Olá, {text}
             </h1>
 
             <p>
