@@ -1,4 +1,7 @@
 import '../cabecalho/Cabecalho.css';
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
 
 function Cabecalho (){
     return (
@@ -11,8 +14,10 @@ function Cabecalho (){
 
             <div className='icons'>
                 <ul>
-                    <li>.g</li>
-                    <li>.L</li>
+                    <li>
+                        <FaGithub/>
+                    </li>
+                    <li><FaLinkedin/></li>
                 </ul>
             </div>
 

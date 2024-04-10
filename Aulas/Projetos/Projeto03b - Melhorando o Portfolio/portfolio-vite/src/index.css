@@ -4,3 +4,8 @@
   width: 100%;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(Poppins), url(./fonts/Poppins/Poppins-Regular.ttf) format('truetype');
+}
