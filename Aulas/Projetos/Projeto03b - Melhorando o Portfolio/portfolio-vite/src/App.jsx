@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Cabecalho from './componentes/Cabecalho'
-
+import Cabecalho from './componentes/cabecalho/Cabecalho'
 function App() {
   const [count, setCount] = useState(0)
 
