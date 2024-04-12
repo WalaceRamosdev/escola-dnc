@@ -10,3 +10,4 @@ const user2 = {
     email: 'pallomanety@gmail.com',
     senha: 13201997
 };
+/* Enum serve para por esécificações em determinados itens */ 
