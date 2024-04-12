@@ -1,3 +1,5 @@
+import '../Projetos/Projetos.css'
+
 function Projetos (){
     return (
         <div>
