@@ -18,10 +18,33 @@ console.log(boleano) */
 // Objetos
 
 
-const user: {nome: string, email: string, senha: number} = {
+/* const user: {nome: string, email: string, senha: number} = {
     nome: 'Walace',
     email: 'contatowalaceramos@gmail.com',
     senha: 132097
 }
 
-console.log (user)
+console.log (user) */
+
+
+// Type Alias e interface
+
+/* Pode ser usado o type ou interface que o resultado será o mesmo */
+
+type Usuario = {
+    name: string,
+    email:string,
+    senha: number 
+}
+
+const user: Usuario = {
+    name: 'Walace',
+    email:'contatowalaceramos@gmail.com',
+    senha: 132097,
+}
+
+const user2: Usuario = {
+    name: 'Paloma',
+    email: 'pallomanety@gmail.com',
+    senha: 13201997
+}
