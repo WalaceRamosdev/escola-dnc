@@ -1,5 +1,11 @@
-const nome:string = 'Eu tenho a melhor mulher do mundo !'
-const numero:number = 32
+// Dados primitivos
 
-console.log(nome)
-console.log(numero)
+const text:string = 'Olá Mundo!'
+const nome:string = 'Bem-vindo Walace'
+
+var saudacao = text + nome
+
+
+
+const boleano: boolean = false
+console.log(boleano)

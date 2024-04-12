@@ -1,5 +1,7 @@
 "use strict";
-const nome = 'Eu tenho a melhor mulher do mundo !';
-const numero = 32;
-console.log(nome);
-console.log(numero);
+// Dados primitivos
+const text = 'Olá Mundo!';
+const nome = 'Bem-vindo Walace';
+var saudacao = text + nome;
+const boleano = false;
+console.log(boleano);
