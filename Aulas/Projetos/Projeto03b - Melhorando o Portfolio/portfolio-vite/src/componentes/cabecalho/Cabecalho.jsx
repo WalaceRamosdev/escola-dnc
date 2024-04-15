@@ -17,7 +17,9 @@ function Cabecalho (){
                     <li>
                         <FaGithub/>
                     </li>
-                    <li><FaLinkedin/></li>
+                    <li>
+                        <FaLinkedin/>
+                    </li>
                 </ul>
             </div>
 
