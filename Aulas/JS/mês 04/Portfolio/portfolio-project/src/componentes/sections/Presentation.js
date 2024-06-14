@@ -11,7 +11,7 @@ function Presentation(){
     const toRotate = ['Walace Ramos', 'Desenvolvedor full Cycle', 'Desenvolvedor ReactJS', 'Desenvolvedor TypeScript', 'Desenvolvedor React Native'];
     const [loop, setLoop] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const period = 200;
+    const period = 300;
     const [delta, setDelta] = useState(100);
 
     /* Aqui abaixo está o timer ou relógio para a digitação do texto de apresentação*/
@@ -34,7 +34,8 @@ function Presentation(){
         if (!isDeleting && updatedText === fullText) {
             setIsDeleting(true);
             setDelta(period);
-        } else if (isDeleting && updatedText === '') {
+        } 
+        else if (isDeleting && updatedText === '') {
             setIsDeleting(false);
             setDelta(period);
             setLoop(loop+1)
