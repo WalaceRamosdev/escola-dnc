@@ -9,6 +9,7 @@
     font-weight: bolder;
     margin-top: 15px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .btn:hover {

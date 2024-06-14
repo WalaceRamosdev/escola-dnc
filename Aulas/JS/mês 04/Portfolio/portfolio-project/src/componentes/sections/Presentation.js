@@ -5,11 +5,13 @@ import {useEffect, useState} from 'react'
 
 function Presentation(){
 
+    /* Aqui está todo o texto de apresentação em loops para ser exibido na tela inicial do portfolio, também temos as configurações de digitação e exclusão do texto*/
+
     const [text, setText] = useState('');
     const toRotate = ['sou Walace Ramos', 'Desenvolvedor full Cycle', 'Desenvolvedor ReactJS', 'Desenvolvedor TypeScript', 'Desenvolvedor React Native'];
     const [loop, setLoop] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const period = 100;
+    const period = 300;
     const [delta, setDelta] = useState(100);
 
     /* Aqui abaixo está o timer ou relógio para a digitação do texto de apresentação*/
@@ -32,7 +34,8 @@ function Presentation(){
         if (!isDeleting && updatedText === fullText) {
             setIsDeleting(true);
             setDelta(period);
-        } else if (isDeleting && updatedText === '') {
+        } 
+        else if (isDeleting && updatedText === '') {
             setIsDeleting(false);
             setDelta(period);
             setLoop(loop+1)
@@ -59,7 +62,7 @@ function Presentation(){
                 e meus mais recentes projetos<br/>
                 pessoais em programação.<br/>
             </p>
-            <ButtonA link='https://www.instagram.com/walacedev.contato/' text='Conecte-se comigo!!!'/>
+            <ButtonA link='https://api.whatsapp.com/send?phone=+5521999064502&text=Ol%C3%A1%2C+Walace%21%0AGostaria+de+saber+mais+sobre+a+cria%C3%A7%C3%A3o+de+p%C3%A1ginas+web' text='Conecte-se comigo!!!'/>
         </div>
     )
 }

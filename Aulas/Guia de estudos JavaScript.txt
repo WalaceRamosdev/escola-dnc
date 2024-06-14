@@ -1,0 +1,32 @@
+1 - Aprofundar em funções :
+
+Explorar funções avançadas, como funções callback,
+funções de ordem superior e arrow functions...
+que são fundamentais para trabalhar com 
+JavaScript moderno
+
+
+
+2 - Dominar o DOM : 
+
+Entender como o DOM (Documento Objet Model) funciona
+e como manipulá-lo com JavaScript para criar 
+interações dinâmicas em páginas web.
+
+
+
+3 - Aproveitar Métodos avançados de array :
+
+O JavaScript nos oferece uma variedade de métodos
+avnçados para manipulação de arrays, como map,
+filter, reduce, some e every. Dominar esses 
+métodos pode tornar o código mais conciso e expressivo.
+
+
+
+4 - Praticar com problemas complexos : 
+
+Se desafiar a resolver problemas de programação
+mais complexos e a criar projetos mais ambiciosos.
+Isso ajudará a solidificar os conhecimentos de problemas 
+mais avançados.
