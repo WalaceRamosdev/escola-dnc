@@ -6,7 +6,7 @@ import {useEffect, useState} from 'react'
 function Presentation(){
 
     const [text, setText] = useState('');
-    const toRotate = ['sou Walace Ramos', 'Desenvolvedor full Cycle', 'Desenvolvedor ReactJS', 'Desenvolvedor TypeScript', 'Desenvolvedor React Native'];
+    const toRotate = ['JavaScript', 'ReactJS', 'TypeScript', 'React Native'];
     const [loop, setLoop] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const period = 100;
@@ -14,15 +14,18 @@ function Presentation(){
 
     /* Aqui abaixo está o timer ou relógio para a digitação do texto de apresentação*/
 
-    useEffect(()=>{
-        let ticker = setInterval(()=>{
+    useEffect(() => {
+
+        let ticker = setInterval(() => {
             toType()
         }, delta)
-        return()=> {clearInterval(ticker)}
+
+        return() => {clearInterval(ticker)}
 
     }, [text])
 
-    const toType = () =>{
+    const toType = () => {
+
         let i = loop % toRotate.length;
         let fullText = toRotate[i]
         let updatedText = isDeleting ? fullText.substring(0,text.length-1) : fullText.substring(0,text.length+1)
@@ -49,7 +52,7 @@ function Presentation(){
             </h4>
 
             <h1>
-                Olá, {text}
+                Olá! Sou Walace Ramos e trabalho com as seguintes ferramentas de linguagens: {text}
             </h1>
 
             <p>
