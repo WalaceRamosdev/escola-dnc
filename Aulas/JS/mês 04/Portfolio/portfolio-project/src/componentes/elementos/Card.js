@@ -21,12 +21,15 @@ function Card({img, title, tech, description, repo, site}) {
                 </a>
                 {info === true &&(
                     <section>
+                        
                     <h3>
                         {title}
                     </h3>
+
                     <p>
                         <strong>Tecnologia: </strong> {tech}
                     </p>
+
                     <p>
                         {description}
                     </p>
