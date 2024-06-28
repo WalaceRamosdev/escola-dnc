@@ -10,7 +10,7 @@ function Presentation(){
     const [loop, setLoop] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const period = 100;
-    const [delta, setDelta] = useState(100);
+    const [delta, setDelta] = useState(450);
 
     /* Aqui abaixo está o timer ou relógio para a digitação do texto de apresentação*/
 
