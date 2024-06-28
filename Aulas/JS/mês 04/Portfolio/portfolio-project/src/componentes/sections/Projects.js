@@ -2,7 +2,7 @@ import styles from './Projects.module.css'
 import ButtonB from '../elementos/ButtonB'
 import Card from '../elementos/Card'
 import lpdnc from '../../image/projects/lpdnc.svg'
-import portfolio from '../../image/projects/portfolio.svg'
+import previsao from '../../image/projects/previsao.svg'
 
 function Projects(){
     return(
@@ -25,17 +25,17 @@ function Projects(){
             />
             
             <Card
-                img={portfolio}
+                img={previsao}
 
-                title=" Portfólio"
+                title="Buscador de CEP e Previsão do tempo"
 
-                tech="JavaScript, React Icons, React-Bootstrap, React JS"
+                tech="JavaScript, Bootstrap"
 
-                description="Criação de um portfólio para apresentação de projetos pessoais e conhecimentos em linguagens de programação." 
+                description="Criação de um de uma página para estar buscando um cep digitado pelo usuário e apresentando sua localidade e a previsão em tempo real da ragião" 
 
-                repo="https://github.com/WalaceRamosdev"
+                repo="https://github.com/WalaceRamosdev/consumo-api"
 
-                site="https://github.com/WalaceRamosdev"
+                site="https://consumo-api-two.vercel.app/"
             />
             
 
