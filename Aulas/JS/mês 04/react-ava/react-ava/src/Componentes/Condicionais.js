@@ -9,18 +9,17 @@ function Condicionais() {
 
     return(
         <div>
-            {Mercado.length >=1 ?
-            (
+            {Mercado.length >= 1 ? (
                 <p>Você possui itens na lista</p>
-            ):(
+            ):
+            
+            (
                 <p>Você não tem itens na sua lista</p>
             )
+
             }
         </div>
     )
 }
-
-
-
 
 export default Condicionais
