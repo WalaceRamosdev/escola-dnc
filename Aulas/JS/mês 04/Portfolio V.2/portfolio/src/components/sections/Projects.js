@@ -28,7 +28,7 @@ function Projects () {
             />
 
             <a href="https://github.com/WalaceRamosdev?tab=repositories" target="_blank">
-                <ButtonB text='Acesssar Repositório'/>
+                <ButtonB text='Acessar Repositório'/>
             </a>
 
             
