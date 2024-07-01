@@ -1,0 +1,18 @@
+import style from './Header.module.css'
+
+export const Header = () => {
+    return(
+        <header className={ style.header }>
+            <ul>
+                <li>Projetos</li>
+                <li>Tecnologias</li>
+                <li>Sobre mim</li>
+            </ul>
+
+            <ul>
+                <li>Icon GitHub</li>
+                <li>Icon LinkedIn</li>
+            </ul>
+        </header>
+    )
+}
