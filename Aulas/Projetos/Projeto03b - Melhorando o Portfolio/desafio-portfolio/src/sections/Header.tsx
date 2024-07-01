@@ -3,7 +3,7 @@ import style from './Header.module.css'
 export const Header = () => {
     return(
         <header className={ style.header }>
-            <ul>
+            <ul className='dadList'>
                 <li>Projetos</li>
                 <li>Tecnologias</li>
                 <li>Sobre mim</li>

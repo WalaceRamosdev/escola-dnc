@@ -1,0 +1,12 @@
+.main h1 {
+    font-size: 45px;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.main p {
+    text-align: left;
+    margin-left: 10%;
+    font-size: 20px;
+    line-height: 35px;
+}

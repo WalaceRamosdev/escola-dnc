@@ -1,9 +1,9 @@
 import './App.css'
 //import { useState } from 'react'
-import { Header } from './components/Header'
-import { Presentation } from './components/Presentation'
-import { Projects } from './components/Projects'
-import { AboutMe } from './components/AboutMe'
+import { Header } from './sections/Header'
+import { Presentation } from './sections/Presentation'
+import { Projects } from './sections/Projects'
+import { AboutMe } from './sections/AboutMe'
 
 function App() {
   //const [count, setCount] = useState(0)
