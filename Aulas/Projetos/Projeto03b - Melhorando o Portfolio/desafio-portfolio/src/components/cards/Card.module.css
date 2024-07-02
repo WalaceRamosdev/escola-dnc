@@ -26,3 +26,37 @@
 .card p {
     margin: 15px;
 }
+
+.button {
+    color: rgba(255, 255, 255, 1);
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    
+    background-image: linear-gradient(
+
+    rgba(19, 173, 199, 1), 
+    rgba(105, 120, 209, 1),  
+    rgba(148, 93, 214, 1)
+    );
+
+    border: none;
+    font-weight: bold;
+    font-family: 'Poppins';
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 5px black;
+    transition: 0.3s;
+    background-image: linear-gradient(
+    rgba(148, 93, 214, 1),
+    rgba(105, 120, 209, 1), 
+    rgba(19, 173, 199, 1)
+    );
+}
+

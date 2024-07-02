@@ -8,7 +8,7 @@ export const Button = ({text, link}: {[key:string]:any}) => {
             <a href={link} target='_blank'>
 
                 <button className={ style.button }>
-                    {text}
+                    {text} {link}
                 </button>
                 
             </a>

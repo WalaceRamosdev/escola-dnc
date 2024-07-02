@@ -2,14 +2,15 @@ import style from './Projects.module.css'
 import { Card } from '../components/cards/Card'
 import ccxp from '../images/ccxp.svg'
 import previsao from '../images/previsao.svg'
+import { Button } from '../components/buttons/Button'
 //import { Button } from '../components/buttons/Button'
 
 export const Projects = () => {
     return (
         
         <>
-            <div className={ style.projects }>
                 <h1>Projetos</h1>
+            <div className={ style.projects }>
 
                         <Card
                             image = { ccxp }
@@ -23,6 +24,7 @@ export const Projects = () => {
                         title = { 'Previsão do Tempo' }
                         description={ 'Projeto criado com a finalidade de implementar uma api meteorológica e uma api de busca de cep, onde ambas retornam os valores em forma de dados para o usuário' }
                         link={"https://consumo-api-two.vercel.app/"}
+                    
                     />
                 
             </div>
