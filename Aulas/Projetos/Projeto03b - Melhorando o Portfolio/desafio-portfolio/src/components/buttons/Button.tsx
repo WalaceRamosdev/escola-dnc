@@ -6,9 +6,11 @@ export const Button = ({text, link}: {[key:string]:any}) => {
         <div>
 
             <a href={link} target='_blank'>
+
                 <button className={ style.button }>
                     {text}
                 </button>
+                
             </a>
 
         </div>
