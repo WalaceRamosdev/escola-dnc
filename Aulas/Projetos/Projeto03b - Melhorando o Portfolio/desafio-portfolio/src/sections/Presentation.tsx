@@ -7,7 +7,7 @@ import style from './Presentation.module.css'
 
 export const Presentation = () => {
 
-    const tl = gsap.timeline({ defaults: { duration: 1 } })
+    const tl = gsap.timeline({ defaults: { duration: 0.75 } })
 
     const titleRef =  useRef(null)
     const descriptionRef = useRef(null)
@@ -18,8 +18,7 @@ export const Presentation = () => {
 
     tl.fromTo(title, {
             opacity:0, y: 100},
-        {   opacity: 1, y: 0 },
-    "-=0.75")
+        {   opacity: 1, y: 0 },)
 
     .fromTo(description, {
             opacity:0, y: 100},
