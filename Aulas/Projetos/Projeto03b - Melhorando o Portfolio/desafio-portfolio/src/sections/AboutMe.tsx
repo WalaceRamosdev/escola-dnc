@@ -9,9 +9,9 @@ export const AboutMe = ({text, lineLeft, LineRight, centerBall}: {[key: string]:
 
         <div className={style.tl}>
 
-            <div className={lineLeft}></div>
-            <div className={centerBall}></div>
-            <div className={LineRight}></div>
+            <div className={lineLeft ? style.line : style.lineNone}></div>
+            <div className={centerBall ? style.ball : style.ballNone}></div>
+            <div className={LineRight ? style.line : style.lineNone}></div>
 
         </div>
 

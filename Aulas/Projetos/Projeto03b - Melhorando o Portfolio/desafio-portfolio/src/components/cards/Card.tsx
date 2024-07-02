@@ -13,7 +13,7 @@ export const Card = ({image, title, description, link }: {[key:string]:any}) => 
                 <h3>{title}</h3>
                 <p>{description}</p>
 
-                <Button text='Clique aqui' link={link} />
+                <Button text='Repositório' link={link} />
                 
 
             </section>
