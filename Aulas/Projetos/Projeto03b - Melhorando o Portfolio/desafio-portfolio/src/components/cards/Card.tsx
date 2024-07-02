@@ -2,7 +2,7 @@ import style from '../cards/Card.module.css'
 import { Button } from '../buttons/Button'
 
 
-export const Card = ({image, title, description, site, button }: {[key:string]:any}) => {
+export const Card = ({image, title, description, link }: {[key:string]:any}) => {
 
     return (
         <div className={style.card}>
@@ -13,7 +13,7 @@ export const Card = ({image, title, description, site, button }: {[key:string]:a
                 <h3>{title}</h3>
                 <p>{description}</p>
 
-                <Button></Button>
+                <Button text='Clique aqui' link={link} />
                 
 
             </section>

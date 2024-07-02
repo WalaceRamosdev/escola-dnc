@@ -4,6 +4,7 @@ import { gsap } from 'gsap'
 import { useEffect, useRef } from 'react'
 
 import style from './Presentation.module.css'
+import { Button } from '../components/buttons/Button'
 
 export const Presentation = () => {
 
@@ -36,6 +37,9 @@ export const Presentation = () => {
                 para transformar suas ideias em realidade digital. Especializado em tecnologias modernas 
                 como HTML5, CSS3, JavaScript, ReactJs, e Node.js, ofereço soluções sob medida que 
                 atendem às necessidades específicas do seu negócio.</p>
+
+                <Button text='Saber mais' link="https://www.instagram.com/walacedev.contato/"/>
+
         </main>
     )
 }
