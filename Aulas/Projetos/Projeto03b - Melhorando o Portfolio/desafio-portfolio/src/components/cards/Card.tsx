@@ -8,6 +8,7 @@ export const Card = ({image, title, description, site, }: {[key:string]:any}) =>
         <div className={style.card}>
         
             <section>
+                
                 <img src={image}/>
                 <h3>{title}</h3>
                 <p>{description}</p>
