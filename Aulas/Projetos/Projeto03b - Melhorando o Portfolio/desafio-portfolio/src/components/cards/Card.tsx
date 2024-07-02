@@ -1,15 +1,22 @@
 import style from '../cards/Card.module.css'
-import ccxp from '../../images/ccxp.svg'
 import { Button } from '../buttons/Button'
 
-export const Card = () => {
+
+export const Card = ({image, title, description, site, }: {[key:string]:any}) => {
+
     return (
         <div className={style.card}>
+        
+            <section>
+                <img src={image}/>
+                <h3>{title}</h3>
+                <p>{description}</p>
 
-            <img src={ccxp}/>
-            <h3>Projeto CCXP</h3>
-            <Button/>
+                <Button text={'Acessar'} link={site}/>
 
+            </section>
+            
+        
         </div>
     )
 }

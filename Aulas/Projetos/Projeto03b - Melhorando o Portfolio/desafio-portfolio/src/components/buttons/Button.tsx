@@ -1,12 +1,16 @@
 import style from '../buttons/Button.module.css'
 
-export const Button = () => {
+export const Button = ({text, link}: {[key:string]:any}) => {
     return (
 
         <div>
-            <button className={ style.button }>
-                Clique
-            </button>
+
+            <a href={link} target='_blank'>
+                <button className={ style.button }>
+                    {text}
+                </button>
+            </a>
+
         </div>
     )
 }
