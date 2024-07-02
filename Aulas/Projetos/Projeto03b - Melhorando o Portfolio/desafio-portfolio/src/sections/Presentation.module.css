@@ -15,3 +15,8 @@
     font-size: 20px;
     line-height: 30px;
 }
+
+.main button {
+    margin-left: 70px;
+    width: 150px;
+}

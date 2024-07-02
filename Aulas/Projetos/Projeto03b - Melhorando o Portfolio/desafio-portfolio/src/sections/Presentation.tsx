@@ -18,8 +18,8 @@ export const Presentation = () => {
         const description = descriptionRef.current
 
     tl.fromTo(title, {
-            opacity:0, y: 100},
-        {   opacity: 1, y: 0 },)
+            opacity:0, x: 100},
+        {   opacity: 1, x: 0 },)
 
     .fromTo(description, {
             opacity:0, y: 100},
