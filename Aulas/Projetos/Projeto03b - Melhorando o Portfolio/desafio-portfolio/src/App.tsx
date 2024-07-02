@@ -1,4 +1,4 @@
-import './App.css'
+
 //import { useState } from 'react'
 import { Header } from './sections/Header'
 import { Presentation } from './sections/Presentation'
