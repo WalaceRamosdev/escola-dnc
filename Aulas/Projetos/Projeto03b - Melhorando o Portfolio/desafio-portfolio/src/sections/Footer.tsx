@@ -1,8 +1,9 @@
+import style from './css/Footer.module.css'
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa"
 
 export const Footer = () => {
     return (
-        <footer>
+        <footer className={style.footer} id='contato' >
             <ul>
                 <li>
                     <h2>
@@ -12,7 +13,7 @@ export const Footer = () => {
                         (21) 9 9906-4502
                     </h2>
                 </li>
-
+            
                 <li>
                     <h2>Meu E-Mail:</h2>
                     <h2>
@@ -23,15 +24,21 @@ export const Footer = () => {
             
             <ul>
                 <li>
-                    <FaGithub size={40}/>
+                <a href="https://github.com/WalaceRamosdev" target="blank">
+                        <FaGithub size={40}/>
+                    </a>
                 </li>
-
+            
                 <li>
-                    <FaLinkedin size={40}/>
+                <a href="https://www.linkedin.com/in/walace-ramos-dev/" target="blank">
+                        <FaLinkedin size={40}/>
+                    </a>
                 </li>
-
+            
                 <li>
-                    <FaInstagram size={40}/>
+                <a href="https://www.instagram.com/walacedev.contato/" target="blank">
+                        <FaInstagram size={40}/>
+                    </a>
                 </li>
             </ul>
         </footer>

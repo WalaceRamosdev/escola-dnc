@@ -1,0 +1,26 @@
+.footer {
+    margin-top: -100px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+
+.footer li {
+    list-style: none;
+    margin: 25px;
+}
+
+.footer a {
+    color: white !important;
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    color: rgba(19, 173, 199, 1) !important;
+}

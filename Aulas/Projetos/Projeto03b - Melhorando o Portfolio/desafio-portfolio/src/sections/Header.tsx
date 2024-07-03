@@ -21,7 +21,7 @@ export const Header = () => {
 
                 <li>
                     
-                        <a href="#projects">Fale Comigo</a>
+                        <a href="#contato">Fale Comigo</a>
                     
                 </li>
 
@@ -30,10 +30,14 @@ export const Header = () => {
             <ul className={style.icons}>
 
                 <li>
-                    <FaGithub size={30}/>
+                    <a href="https://github.com/WalaceRamosdev" target="blank">
+                        <FaGithub size={30}/>
+                    </a>
                 </li>
                 <li>
-                    <FaLinkedin size={30}/>
+                    <a href="https://www.linkedin.com/in/walace-ramos-dev/" target="blank">
+                        <FaLinkedin size={30}/>
+                    </a>
                 </li>
             </ul>
 
