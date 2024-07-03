@@ -5,7 +5,7 @@ export const TimeLine = () => {
 return (
             <section className={style.timeline} id='Timeline'>
 
-                <h2>Sobre mim</h2>
+                <h2 id='timeline'>Sobre mim</h2>
 
                 <div>
                     <AboutMe
@@ -38,7 +38,7 @@ return (
                         lineLeft = {true}
                         ball = {true}
                         lineRight = {false}
-                        texto = 'Já com alguns conhecimentos, iniciei minha jornada pela área de Freelancer produzindo inicialmente páginas estáticas e atualmente já consigo construir projetos com interações usando o JavaScript e interfaces mais atrativas através do Ract.'                        
+                        texto = 'Já com alguns conhecimentos, iniciei minha jornada pela área de Freelancer produzindo inicialmente páginas estáticas e atualmente já consigo construir projetos com interações usando o JavaScript e interfaces mais atrativas através do React.'                        
                         
                     />
 

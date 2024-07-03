@@ -1,15 +1,35 @@
 .header {
     display: flex;
     justify-content: space-between;
-
+    
 }
+
 
 .header ul {
     display: flex;
     list-style: none;
-    margin-left: 20%;
+    margin-left: 27%;
+    
 }
 
 .header li {
     margin: 15px;
 }
+
+.header a {
+    color: white !important;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.header a:hover {
+    color: rgba(19, 173, 199, 1) !important;
+}
+
+.icons {
+    margin-right: 5%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+

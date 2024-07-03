@@ -22,8 +22,8 @@ export const Presentation = () => {
         {   opacity: 1, x: 0 },)
 
     .fromTo(description, {
-            opacity:0, y: 100},
-        {  opacity: 1, y: 0,}
+            opacity:0, y: 50},
+        {  opacity: 1, y: 0,}, "-=0.57"
     )
     }, [])
 
@@ -38,7 +38,7 @@ export const Presentation = () => {
                 como HTML5, CSS3, JavaScript, ReactJs, e Node.js, ofereço soluções sob medida que 
                 atendem às necessidades específicas do seu negócio.</p>
 
-                <Button text='Saber mais' link="https://www.instagram.com/walacedev.contato/"/>
+                <Button text='Meu Instagram' link="https://www.instagram.com/walacedev.contato/"/>
 
         </main>
     )

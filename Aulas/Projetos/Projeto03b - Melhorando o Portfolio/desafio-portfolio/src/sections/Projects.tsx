@@ -6,7 +6,10 @@ import previsao from '../images/previsao.svg'
 export const Projects = () => {
     return (
         <>
-                <h1>Projetos</h1>
+                <h1 id='projects'>
+                    Projetos
+                </h1>
+                
             <div className={ style.projects }>
 
                             <Card

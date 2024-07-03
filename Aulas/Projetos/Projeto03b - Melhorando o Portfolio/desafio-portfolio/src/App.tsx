@@ -4,6 +4,7 @@ import { Header } from './sections/Header'
 import { Presentation } from './sections/Presentation'
 import { Projects } from './sections/Projects'
 import { TimeLine } from './sections/TimeLine'
+import { Footer } from './sections/Footer'
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Presentation/>
       <Projects/>
       <TimeLine/>
+      <Footer/>
     </>
   )
 }
