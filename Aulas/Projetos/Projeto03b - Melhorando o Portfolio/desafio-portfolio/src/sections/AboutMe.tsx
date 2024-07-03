@@ -1,22 +1,18 @@
-import style from '../sections/AboutMe.module.css'
+import styles from "./css/TimeLine.module.css";
 
-export const AboutMe = ({text, lineLeft, LineRight, centerBall}: {[key: string]: any}) => {
+export const AboutMe = ({ano, texto, lineLeft, ball,  lineRight}: {[key: string]: any}) => {
+    
+    return (
+        <div>
+            <h3>{ano}</h3>
 
-    return (   
-        <> 
+            <div className={styles.time}>
+                <div className={lineLeft ? styles.line :  styles.lineNone}></div>
+                <div className={ball ? styles.ball : styles.ballNone}></div>
+                <div className={lineRight ? styles.line : styles.lineNone}></div>
+            </div>
 
-        <h2>Sobre mim</h2>
-
-        <div className={style.tl}>
-
-            <div className={lineLeft ? style.line : style.lineNone}></div>
-            <div className={centerBall ? style.ball : style.ballNone}></div>
-            <div className={LineRight ? style.line : style.lineNone}></div>
-
+            <p>{texto}</p>
         </div>
-
-        <p>{text}</p>
-
-        </>
     )
 }

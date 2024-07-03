@@ -3,7 +3,7 @@
 import { gsap } from 'gsap'
 import { useEffect, useRef } from 'react'
 
-import style from './Presentation.module.css'
+import style from './css/Presentation.module.css'
 import { Button } from '../components/buttons/Button'
 
 export const Presentation = () => {

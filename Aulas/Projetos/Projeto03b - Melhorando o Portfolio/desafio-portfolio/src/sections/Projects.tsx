@@ -1,4 +1,4 @@
-import style from './Projects.module.css'
+import style from './css/Projects.module.css'
 import { Card } from '../components/cards/Card'
 import ccxp from '../images/ccxp.svg'
 import previsao from '../images/previsao.svg'

@@ -3,7 +3,9 @@
 import { Header } from './sections/Header'
 import { Presentation } from './sections/Presentation'
 import { Projects } from './sections/Projects'
-import { AboutMe } from './sections/AboutMe'
+import { TimeLine } from './sections/TimeLine'
+
+
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -13,7 +15,7 @@ function App() {
       <Header/>
       <Presentation/>
       <Projects/>
-      <AboutMe/>
+      <TimeLine/>
     </>
   )
 }
