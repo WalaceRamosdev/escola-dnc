@@ -11,3 +11,8 @@ h1 {
     margin-bottom: 60px;
 }
 
+@media(min-width: 768px) {
+    .projects {
+        max-width: 300px;
+    }
+}
