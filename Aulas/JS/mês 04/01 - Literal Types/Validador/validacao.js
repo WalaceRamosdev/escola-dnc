@@ -1,9 +1,9 @@
 "use strict";
 let validador;
 validador = null;
-if (validador === 'atenticado') {
+if (validador === 'autenticado') {
     console.log('Você está autorizado');
 }
 else {
-    console.log('Você não possui permissão');
+    console.log(typeof (validador));
 }
