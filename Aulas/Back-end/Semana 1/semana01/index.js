@@ -1,11 +1,14 @@
-const express = require('express');
-const app = express();
-const port = 3000;
+const fs = require('fs')
+const path = require('path')
 
-app.get('/', (req, res) => {
-    res.send('Olá, mundo!');
-});
-
-app.listen(port, () => {
-    console.log(`Servidor rodando em http://localhost:${port}`);
-});
+function createDirectory (dirPath) {
+    new Promise ((resolve, reject) => {
+        fs.mkdir(dirPath, {recursive: true}, (err) => {
+            if (err) {
+                reject(err)
+            }else {
+                resolve(`Diretorio '${dirPath}' criado com sucesso`)
+            }
+        })
+    })
+}
