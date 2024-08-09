@@ -12,3 +12,17 @@ function createDirectory (dirPath) {
         })
     })
 }
+
+function createFile (filePath, content = '') {
+    new Promise ((resolve, reject) => {
+        fs.writeFile(filePathPath, content, 'utf-8', (err) => {
+            if (err) {
+                reject(err)
+            }else {
+                resolve(`Arquivo '${filePath}' criado com sucesso`)
+            }
+        })
+    })
+}
+
+module.exports = {createDirectory, createFile}
