@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "Walace Ramos",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "arquivos-calculadora": "^1.0.0",
+    "readline-sync": "^1.4.10"
+  }
 }
