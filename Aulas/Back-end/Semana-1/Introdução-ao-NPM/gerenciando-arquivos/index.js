@@ -14,12 +14,12 @@ async function main() {
         console.log("5. Deletar arquivo");
         console.log("6. Sair");
 
-        const choice = readLineSync.question('Escolha uma opcao')
+        const choice = readLineSync.question('Escolha uma opcao ')
 
         switch(choice) {
             case '1':
-                    const fileName = readLineSync.question('Digite o nome do arquivo');
-                    const fileContent = readLineSync.question ('Digite o conteudo ou deixe em branco');
+                    const fileName = readLineSync.question('Digite o nome do arquivo ');
+                    const fileContent = readLineSync.question ('Digite o conteudo ou deixe em branco ');
 
                     const createFilePath = path.join(__dirname, fileName)
                     const fileMessage = await fileManager.createFile(createFilePath, fileContent)
