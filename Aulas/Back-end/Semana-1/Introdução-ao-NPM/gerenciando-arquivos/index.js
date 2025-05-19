@@ -16,7 +16,7 @@ async function main() {
         console.log("5. Deletar arquivo");
         console.log("6. Sair");
 
-        const choice = readLineSync.question('Escolha uma opcao ')
+        const choice = readLineSync.question('Escolha uma opcao: ')
 
         try {
             switch(choice) {
@@ -37,12 +37,12 @@ async function main() {
 
             case '3': 
                 const readFileName = readLineSync.question(
-                    "Digite o nome da extensão do arquivo: "
+                    "Digite o nome e extensão do arquivo: "
                 )
 
                 const readFilePath = path.join(baseDir, readFileName)
                 const content = await fileManager.readFile(readFilePath)
-                console.log('Conteudo do arquivo')
+                console.log('Conteudo do arquivo', content)
                 break;
 
             case '4':
@@ -64,7 +64,7 @@ async function main() {
                     "Digite o nome do arquivo: "
                 )
 
-                const deleteFilePath = path.join(baseDir, fileManager.deleteFileName)
+                const deleteFilePath = path.join(baseDir, deleteFileName)
                 const messageDelete = await fileManager.deleteFile(deleteFilePath)
                 console.log(messageDelete)
                 break;
@@ -79,10 +79,7 @@ async function main() {
             } catch (err) {
                 console.log(err)
             }
-
-        
     }
 }
 
 main();
-
